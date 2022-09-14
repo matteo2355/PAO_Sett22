@@ -43,7 +43,7 @@ tramite POSTMAN. Bisognerà avviare il programma come applicazone Springboot. Va
 |  1  | ``` GET ``` |  ``` /weather?cityName=Ancona```         |restituisce un HttpEntity contenente le informazioni sulle attuali condizioni climatiche (temperatura, temperatura percepita, pressione, umidità...)della città passata in ingresso.|
 |  2  | ``` GET ``` |  ``` /saveEveryHour?cityName=Bologna ``` |restituisce il path in cui è stato salvato il file contenente le informazioni attuali relative alla condizioni climatiche aggiornate ogni ora.|
 |  3  | ``` POST ```|  ``` /stats ``` |restituisce un HttpEntity contenente le statistiche sui parametri indicati in ingresso della città passata in ingresso.|
-|  4  | ``` POST ```|  ``` /filters ``` ||restituisce un HttpEntity contentente le statistiche filtrare secondo l'informazione che si vuole richiedere (anche di piu città). |
+|  4  | ``` POST ```|  ``` /filters ``` |restituisce un HttpEntity contentente le statistiche filtrare secondo l'informazione che si vuole richiedere (anche di piu città). |
 
 ## AUTORE
 |NOME|EMAIL|CONTRIBUTO|
